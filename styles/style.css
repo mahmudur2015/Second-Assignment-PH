@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Global styles */
+.display-flex {
+    display: flex;
+}
+
+
+/* Header Styles */
+.heading {
+    margin: 30px 100px;
+}
+
+.school-nab {
+    width: auto;
+    height: 100px;
+    /* gap: 30px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 50px;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.home {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: orange;
+}
+
+.sky-blue {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: skyblue;
+}
+
+.admission {
+    color: #5D58EF;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    border-style: none;
+    margin-left: 75px;
+}
+
+/* Banner styles */
+.banner-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-heading {
+    font-weight: 800;
+    font-size: 4.10rem;
+}
+
+.banner-paragraph {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.banner-content {
+    justify-content: space-between;
+    justify-content: center;
+    /* width: 600px;
+    height: 300px; */
+
+}
+
+
+.empower {
+    color: orange;
+}
+
+.vision {
+    color: skyblue;
+}
+
+.btn-banner {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-style: none;
+}
+
+/* Responsive Media Styles */
+@media screen and (max-width: 576px) {
+
+    .school-nab,
+    .nav-links
+     {
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+
+    .nav-links,.nav-button {
+        overflow: hidden;
+        position: relative;
+    }
+}
