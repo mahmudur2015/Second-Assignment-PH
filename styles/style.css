@@ -6,6 +6,10 @@
     font-weight: 400;
     font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Global styles */
 .display-flex {
@@ -123,20 +127,104 @@
     border-style: none;
 }
 
+/* Curriculum Section styles */
+.curriculum-section {
+    background-image: url('images/bg.png');
+    width: auto;
+    height: auto;
+    margin: 0 100px;
+}
+
+.curriculum-heading {
+    text-align: center;
+    margin: 60px, 0;
+}
+
+.curriculum-details {
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.curriculum-card {
+    border: 2px solid bisque;
+    border-radius: 18px;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px
+}
+
+.card-heading {
+    font-weight: 800;
+    font-size: 2.1rem;
+    color: #202020;
+}
+
+.card-content {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #808080;
+}
+
+.card-footer-content {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#card-ft-01 {
+    color: #64C8FF;
+}
+
+#card-ft-02 {
+    color: #F0AA00;
+}
+
+#card-ft-03 {
+    color: #8700FF;
+}
+
 /* Responsive Media Styles */
 @media screen and (max-width: 576px) {
 
-    .school-nab,
-    .nav-links
-     {
-        flex-direction: column;
-    }
-    .banner-section{
-        flex-direction: column-reverse;
-    }
-
-    .nav-links,.nav-button {
+    .nab {
         overflow: hidden;
         position: relative;
     }
+
+    .nav,
+    .nav-links {
+        display: none;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    .nav-links,
+    .nav-button {
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Curriculum section responsive styles */
+    .curriculum-section {
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .curriculum-details {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curriculum-card {
+        overflow: hidden;
+        grid-template-columns: repeat(1, 1fr);
+        width: 325px;
+        height: 280px;
+        
+    }
+
 }
