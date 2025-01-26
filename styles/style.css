@@ -253,6 +253,78 @@
 #story-right-2ndbtn{
     background-color: #5D58F0;
 }
+.viewall{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-viewall{
+    width: 175px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-weight: 800;
+    font-size: 1.25rem;
+
+}
+/* Footer styles */
+.school-footer{
+    width: auto;
+    height: 400px;
+    background-color: #01ACFD;
+    margin-top: 60px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+ 
+
+}
+.footer-box{
+    justify-content: space-between;
+}
+.footer-img-sec{
+    align-items: center;
+}
+.footer-para{
+    text-align: justify;
+    justify-content: center;   
+}
+.footer-link{
+    list-style: none;
+    font-weight: 800;
+    font-size: 1.25rem;
+
+}
+.footer-link-title{
+    font-weight: 800;
+    font-size: 1.50rem;
+}
+.footer-link{
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-top: 20px;
+}
+.footer-para{
+    padding-top: 20px;
+}
+ul> li> a{
+    text-decoration: none;
+    color: white; 
+    padding-bottom:10px;
+}
+.footer-icon-title{
+    margin-bottom: 20px;
+}
+.footer-img-icon{
+    margin-right: 10px;
+}
+
+
+
+
 /* Responsive Media Styles */
 @media screen and (max-width: 576px) {
 
@@ -276,6 +348,7 @@
         overflow: hidden;
         position: relative;
     }
+ 
 
     /* Curriculum section responsive styles */
     .curriculum-section {
@@ -294,5 +367,9 @@
         height: 280px;
         
     }
+    .stories-left-side{
+        display: none;
+    }   
+
 
 }
