@@ -367,9 +367,18 @@ ul> li> a{
         height: 280px;
         
     }
+    .school-stories{
+       margin: auto;
+    }
     .stories-left-side{
         display: none;
     }   
+    .school-footer{
+        margin: auto;
+    }
+    .footer-box{
+        gap: 20px;
+    }
 
 
 }
