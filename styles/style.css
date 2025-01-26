@@ -15,7 +15,16 @@
 .display-flex {
     display: flex;
 }
-
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #95B226;
+    color: white;
+    margin-top: -800px;
+    margin-left: 20px;
+    border: none;
+}
 
 /* Header Styles */
 .heading {
@@ -184,7 +193,66 @@
 #card-ft-03 {
     color: #8700FF;
 }
+.card-footer-content{
+    padding-top: 20px;
+}
+/* School Stories section styles*/
+.school-stories{  
+    align-items: center;
+    margin: 30px 100px;
+    width: auto;
+    background-image: url('./images/bg.jpg')
+}
+.stories-box{
+    margin-top: 30px;
+}
+.storeis-left-heading,.storis-left-para{
+    margin-left: 20px;
+}
+#story-left-btn{
+    margin-left: 20px;
+}
+.stories-heading{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.stories-left-side{
+   margin: 50px 0;
+   align-items:flex-start;
+   width: 50%;
 
+}   
+.left-side-pic{
+    border-radius: 16px;
+}
+.storis-left-para{
+    align-items: center;
+}
+#story-left-btn{
+    background-color: #3CD8E8;
+}
+.stories-right-side{
+    margin: 30px 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;       
+}
+.stories-right-img{
+    border-radius: 16px;
+}
+.right-side-caption{
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 1rem;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#story-right-2ndbtn{
+    background-color: #5D58F0;
+}
 /* Responsive Media Styles */
 @media screen and (max-width: 576px) {
 
